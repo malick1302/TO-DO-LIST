@@ -1,0 +1,48 @@
+<?php
+?>
+<!DOCTYPE html>
+<html ontouchmove lang="fr">
+<head onclick>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+  <header>
+    <h1>To do List</h1>
+  </header>
+  <?php
+  if (array_key_exists('A faire', $_POST)) {
+    save();
+  } else if (array_key_exists('Terminé', $_POST)) {
+    save();
+  }
+  function save()
+  {
+    echo "saved";
+  }
+
+  ?>
+  <main>
+    <input type="text" id="input" placeholder="Noter une tache à effectuer"></input>
+    <button class="buttbut" onclick="task()">Ajouter la tache</button>
+    <div>
+      <form method="post">
+        <h1>A faire</h1>
+        <ul class="doIt" id="doIt">
+        </ul>
+      </form>
+    </div>
+    <div>
+      <form method="post">
+        <h1>Terminé</h1>
+        <ul class="didIt" id="didIt">
+        </ul>
+      </form>
+    </div>
+  </main>
+  <button class="buttbut" value="save" type="save">Save</button>
+  <script src="home.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+1) creation de deux liste distinctes : "A faire" et "Terminée"
+
+- créer la liste a faire ok
+-creer la liste terminée ok
+2)Fonctionnalité d'ajout de taches -> elles doivent aller 
+automatiquement dans les taches a effectuer ok 
+- noter la tache et l'ajouter ok
+3) Possibilité de supprimé n'importe quelle taches 
+de n'importe quelle liste. ok
+
+
+SINGLE PAGE APPLICATION 
+ES+26
+PURE JAVASCRIPT VANILLA
+
+------------------
+
+
+2EME PARTIE SAUVEGARDE DE DONNÉES
+
+Tester une SAUVEGARDE en utilisant fetch
+utiliser un Post pour recupérer les DONNÉES
+
+
+
+
